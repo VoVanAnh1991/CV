@@ -1,0 +1,94 @@
+.section-header, .section-about, .section-download, .section-services, .section-map {
+    height: 500px;
+}
+
+.section-info {
+    height: 250px;
+}
+
+/* #0f8265 */
+/* #d8d8e8 */
+.section-header {
+    background-image: url("../img/bg-01.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    color: #d8d8e8;
+}
+
+.fs-header {
+    font-size: 45pt;
+}
+
+.btnFON, .btnDL {
+    background-color: #0f8265;
+}
+
+.section-services {
+    background-color: #0f8265;
+    color: #fff;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: #0f8265;
+    display: block;
+    line-height: 100px;
+    margin: auto;
+}
+
+.service-icon svg {
+    width: 50px;
+    height: 50px;
+}
+
+.section-download {
+    background-image: url("../img/bg-02.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    color: #d8d8e8;
+}
+
+.section-map {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.info-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #0f8265;
+    color: #fff;
+    display: block;
+    line-height: 80px;
+    margin: auto;
+}
+
+.info-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.top {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(52, 58, 64, 0.5);
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.top:hover {
+    background-color: rgba(52, 58, 64, 1);
+    color: #000;
+}

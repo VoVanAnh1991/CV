@@ -1,0 +1,197 @@
+body {
+    margin-top: 20px; 
+    padding: 0; 
+    background-color: #787878;
+    font-family: Arial;
+}
+
+#header {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    background-color:darkgreen;
+    border: 2px solid #1a24fc;
+}
+
+#logo {
+    width: 1000px;
+    height: 100px;
+    padding: 20px 0 0 20px;
+    background-image: url(./image/header\ background.jpg);
+    background-repeat: no-repeat;
+}
+
+#header #logo img {
+    position: relative;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 5px;
+}
+#header #logo img:hover {
+    border: 2px dotted red;
+}
+
+#menuContainer {
+    width: 990px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 2px solid #1a24fc;
+    padding: 2px 5px 0px 5px;
+}
+
+#mainMenu {
+    padding-inline-start: 0px;
+}
+
+.menu-nav {
+    display: inline;
+    padding: 15px;
+    border: 1px solid transparent;
+}
+
+.menu-nav:hover {
+    border: 1px dotted gray;
+}
+
+#mainContainer {
+    width: 990px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 2px solid #1a24fc;
+    padding: 20px 5px 0px 5px;
+}
+
+#sidebar1 {
+    width: 220px;
+    font-size: 14px;
+    float: left;
+}
+
+.sub-sidebar {
+    border: 1px solid #fc1a1a;
+    color: gray;
+}
+
+.bar-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 10px 15px;
+    background-color:#1a24fc; 
+    color:#FFFFFF;
+}
+.sub-sidebar-content p {
+    text-align: center;
+}
+
+.side-menu ul{
+    padding-inline-start: 0;
+}
+.side-menu ul li{
+    border: 1px solid transparent;
+    padding: 5px 0 5px 15px;
+}
+.side-menu ul li:hover {
+    border: 1px dotted gray;
+}
+
+
+.number {
+    font-weight: bold;
+}
+
+#mainContent {
+    float: left;
+    width: 770px;
+}
+
+#banner {
+    height: 400px; 
+    padding-left: 20px; 
+    /* bỏ dòng padding-left phía trên vị trí banner sẽ giống mẫu (nhưng không đẹp) */
+}
+
+#banner img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#banner p {
+    position: relative;
+    top: -100%;
+    left: 68.5%; 
+    background-color: white;
+    display: inline;
+    padding: 5px;
+}
+
+.content-item {
+    padding-left: 20px;
+}
+
+.item-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 10px 15px;
+    background-color:#1a24fc; 
+    color:#FFFFFF;
+    margin-top: 10px;  
+}
+
+.item-title span {
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 0 5px 0 0;
+}
+.item-title span:before {
+    content:' \25C6 ';
+}
+
+.product {
+    right: -5px;
+    padding: 3px 0 0 0;
+    width: 120.5px;
+    display:inline-block;
+}
+
+.product-title {
+    text-decoration: underline white;
+    padding: 20px 0;
+    width: 120.5px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+.product-link:hover * {
+    color: darkred;
+}
+
+.product-link img {
+    border: 1px solid transparent;
+}
+
+.product-link:hover img {
+    border: 1px solid darkred;
+}
+
+#article {
+    padding-bottom: 0px;
+    line-height: 200%;
+    padding-left: 20px;
+    color: gray;
+}
+
+#article h2 {
+    color: red;
+}
+
+#footer {
+    width: 960px;
+    margin: auto auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    border: 2px solid #1a24fc;
+}
